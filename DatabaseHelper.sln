@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseHelper.Domain", "DatabaseHelper.Domain\DatabaseHelper.Domain.csproj", "{23B39533-CA99-4894-B40B-09093F692CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseHelper.Infrastructure", "DatabaseHelper.Infrastructure\DatabaseHelper.Infrastructure.csproj", "{CF540404-7BA3-4AFA-864D-8CBF6B549D66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23B39533-CA99-4894-B40B-09093F692CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B39533-CA99-4894-B40B-09093F692CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B39533-CA99-4894-B40B-09093F692CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B39533-CA99-4894-B40B-09093F692CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF540404-7BA3-4AFA-864D-8CBF6B549D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF540404-7BA3-4AFA-864D-8CBF6B549D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF540404-7BA3-4AFA-864D-8CBF6B549D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF540404-7BA3-4AFA-864D-8CBF6B549D66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96661E9D-D915-436B-AF0B-CC81D9C44A0F}
+	EndGlobalSection
+EndGlobal
