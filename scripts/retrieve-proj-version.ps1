@@ -1,6 +1,6 @@
-cd ../ElasticSearchHelper.Infrastructure
+cd ../DatabaseHelper.Infrastructure
 
-$xml = [Xml] (Get-Content .\ElasticSearchHelper.Infrastructure.csproj)
+$xml = [Xml] (Get-Content .\DatabaseHelper.Infrastructure.csproj)
 if ($xml.Project.PropertyGroup -is [array]) {
   $version = $xml.Project.PropertyGroup[0].Version
 }else {
